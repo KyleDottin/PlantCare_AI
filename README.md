@@ -1,6 +1,6 @@
 # PlantCare_AI
 
-### An AI-powered solution for plant health monitoring and pest detection, made for ENSEA's 2025 hackathon. 
+*"An AI-powered solution for plant health monitoring and pest detection, conceived for ENSEA's 2025 hackathon."*
 
 --- 
 
@@ -8,11 +8,30 @@
 PlantCare_AI is an innovative project that leverages artificial intelligence, electronics and mechanical design to assist farmers and plant enthusiasts in detecting plant illnesses and pests efficiently. By integrating multiple disciplines, the system ensures precise diagnosis, ease of use, and adaptability for various environments.
 
 ## Table of Contents
+- [General Description](#general-description)
 - [Features](#features)
 - [How It Works](#how-it-works)
 - [Installation](#installation)
 - [Contributors](#contributors)
 - [Acknowlegements and Citation](#acknowlegements-and-citation)
+
+---
+
+## General Description
+
+**Theme:** *"Engineering in a Constrained World: An Environmental Challenge"*
+
+This project was developed as part of a hackathon with the theme emphasizing the importance of sustainable engineering practices in addressing environmental challenges. **PlantCare_AI** aligns with this theme in two major aspects:
+
+1. **Purpose of the Project:**
+   - Agricultural losses caused by plant diseases significantly impact global food security. Our project aims to mitigate these losses by detecting plant diseases early, allowing farmers to take timely and targeted action. By providing an accessible and cost-effective solution, we contribute to reducing the overuse of pesticides and preventing large-scale agricultural damage.
+
+2. **Eco-conscious Design Choices:**
+   - **Hardware Efficiency:** The project leverages a Raspberry Pi, a low-energy-consuming and cost-efficient microcontroller, for its operations.
+   - **Reuse of AI Models:** Instead of training a new AI model from scratch, which is resource-intensive, we opted to adapt and use an open-source model.
+   - **Local Network Usage:** The project minimizes reliance on cloud infrastructure by using a local network setup, reducing both environmental impact and dependency on high-energy server farms.
+
+By prioritizing resource efficiency and practicality, **PlantCare_AI** embodies the principles of environmentally conscious engineering. It serves as an example of how innovation can address real-world problems while staying mindful of environmental constraints.
 
 ---
 
