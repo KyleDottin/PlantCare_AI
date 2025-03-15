@@ -1,6 +1,6 @@
 # PlantCare_AI
 
-*"An AI-powered solution for plant health monitoring and pest detection, conceived for ENSEA's 2025 hackathon."*
+*An AI-powered solution for plant health monitoring and pest detection, conceived for ENSEA's 2025 hackathon.*
 
 --- 
 
