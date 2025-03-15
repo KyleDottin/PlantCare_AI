@@ -4,57 +4,65 @@
 {% endblock pagetitle %}
 {% block body %}
 
-<div>
-  <div class="container">
-    <!-- For demo purpose -->
-    <div class="row mb-5 text-center text-white">
-      <div class="col-lg-10 mx-auto">
-        <h1 class="display-4" style="padding-top: 2%;font-weight: 400;color: rgb(4, 54, 4);""><b>{{title}}🍂</b></h1>
-      </div>
+<div class="container montserrat">
+  <header>
+    <div>
+      AI Plant care
     </div>
-    <center>
-    <div class=" col">
-          <div class="p-3 bg-white shadow rounded-lg" style="width: 30%;">
-            Picture from the camera :<img src="/static/image_test.jpg" width="250" height="250"><br/>
-            Picture linked to the disease : <img src={{image_url}} width="250" height="250">
-          </div>
-      </div>
-      </center>
-      <br>
-      <div class=" row ">
-        <div class="col mx-auto">
-          <div class="p-5 bg-white shadow rounded-lg" style="height: 95%;">
+    <div>
+      Powered by E-Goof@ENSEACK 2025
+    </div>
+  </header>
+  <div class="scan">
+    <div class="qr-scan">
+      <div class="top-line"></div>
+      <div class="left-line"></div>
+      <div class="right-line"></div>
+      <div class="bottom-line"></div>
+      <div class="scan-bar"></div>
 
-            <h5><b>
-                {% if pred==3 or pred==5 or pred==7 or pred==11 or pred==15 or pred==18 or pred==20 or pred==23 or
-                pred==24 or pred==25 or pred==28 or pred==38 %}
-                Tips to Grow Healthy Plants :
-                {% else %}
-                Brief Descritpion :
-                {% endif %}
-              </b></h5>
-            <p>{{desc}}
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col mx-auto">
-          <div class="p-5 bg-white shadow rounded-lg" style="height:95%">
-            <h5><b>
-                {% if pred==3 or pred==5 or pred==7 or pred==11 or pred==15 or pred==18 or pred==20 or pred==23 or
-                pred==24 or pred==25 or pred==28 or pred==38 %}
-                Benefits :
-                {% else %}
-                Prevent This Plant Disease By follow below steps :
-                {% endif %}
-              </b></h5>
-            <p>
-              {{prevent}}
-            </p>
-          </div>
-        </div>
+      
+     <img class="scan-img" src="/static/image_test.jpg" alt="Image from camera" />
     </div>
   </div>
+  <!-- <div class="stats">
+    <div class="stats_item">
+     <img class="stats-img" src="/static/sun.png" alt="" />
+      <div class="stats_title">Atmosphere</div>
+      <div class="stats_figure">Sunny</div>
+    </div>
+    <div class="stats_item">
+     <img class="stats-img" src="/static/water.png" alt="" />
+      <div class="stats_title">Humidity</div>
+      <div class="stats_figure">42%</div>
+    </div>
+  </div> -->
+  <div class="description">
+      <h1 class="description-title">{{title}}</h1>
+      <img class="description-img" src={{image_url}} alt="" />
+      <h2 class="description-subtitle">
+            {% if pred==3 or pred==5 or pred==7 or pred==11 or pred==15 or pred==18 or pred==20 or pred==23 or
+            pred==24 or pred==25 or pred==28 or pred==38 %}
+            💡 Tips to Grow Healthy Plants :
+            {% else %}
+            📖 Brief Descritpion :
+            {% endif %}
+      </h2>
+      <p class="description-desc">
+          {{desc}}
+      </p>
+      <h2 class="description-subtitle">
+        {% if pred==3 or pred==5 or pred==7 or pred==11 or pred==15 or pred==18 or pred==20 or pred==23 or
+        pred==24 or pred==25 or pred==28 or pred==38 %}
+        📈 Benefits :
+        {% else %}
+        🦠 Prevent This Plant Disease By follow below steps :
+        {% endif %}
+      </h2>
+      <p class="description-desc">
+          {{prevent}}
+      </p>
+  </div>
 </div>
+
 {% endblock body %}
