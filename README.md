@@ -41,14 +41,14 @@ By prioritizing resource efficiency and practicality, **PlantCare_AI** embodies 
    - Supports various crops like tomatoes, grapes, and apples, with predictions categorized into healthy or disease-specific classes.
 
 - **Mechanical Integration**
-   - A rack-and-pinion mechanism to enable camera mobility for capturing multiple plants
+   - A rack-and-pinion mechanism to enable camera mobility for capturing multiple plants. 
 
 - **Electronics Module**
    - Includes LED indicators and buttons for user interaction.
-   - Integrated resistors for circuit stability and control.
+   - Integrated resistors for circuit stability and control. 
 
 - **Web Interface**
-   - A user-friendly website for visualizing detection results.
+   - A user-friendly website for visualizing detection results. 
      
 ---
 
