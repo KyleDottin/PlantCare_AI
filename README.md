@@ -54,7 +54,7 @@ $ cd PlantCare_AI
 ## Contributors
 - **Benoit Baguelin** 
 - **Kyle Dottin** 
-- **Elio Flandin ** 
+- **Elio Flandin** 
 - **Kevin Dugard** 
 - **Reem Khater**
 
