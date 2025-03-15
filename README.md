@@ -18,20 +18,19 @@ PlantCare_AI is an innovative project that leverages artificial intelligence, el
 
 ## Features
 - **AI-Based Plant Disease Detection**
-   - Detects plant illnesses and pests from leaf images using a pre-trained MobileNet model.
+   - Detects plant illnesses and pests from leaf images using a pre-trained model.
    - Supports various crops like tomatoes, grapes, and apples, with predictions categorized into healthy or disease-specific classes.
 
 - **Mechanical Integration**
-   - A 3D-printed case and rack-and-pinion mechanism to enable camera mobility for capturing high-quality images.
+   - A rack-and-pinion mechanism to enable camera mobility for capturing high-quality images.
 
 - **Electronics Module**
    - Includes LED indicators and buttons for user interaction.
    - Integrated resistors for circuit stability and control.
 
 - **Web Interface**
-   - A user-friendly website for accessing predictions, monitoring device status, and visualizing detection results.
-   - Provides real-time feedback and storage for previous diagnoses.
-
+   - A user-friendly website for visualizing detection results.
+     
 ---
 
 ## How It Works
