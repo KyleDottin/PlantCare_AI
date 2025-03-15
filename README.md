@@ -44,7 +44,7 @@ PlantCare_AI is an innovative project that leverages artificial intelligence, el
 ## Installation
 ```bash
 # Clone the repository
-$ git clone https://github.com/yourusername/PlantCare_AI.git
+$ git clone https://github.com/ReemKhater/PlantCare_AI.git
 $ cd PlantCare_AI
 ```
 
