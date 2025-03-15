@@ -1,6 +1,6 @@
 # PlantCare_AI
 
-# An AI-powered solution for plant health monitoring and pest detection.
+## An AI-powered solution for plant health monitoring and pest detection, made for ENSEA's 2025 hackathon. 
 
 --- 
 
@@ -22,7 +22,7 @@ PlantCare_AI is an innovative project that leverages artificial intelligence, el
    - Supports various crops like tomatoes, grapes, and apples, with predictions categorized into healthy or disease-specific classes.
 
 - **Mechanical Integration**
-   - A rack-and-pinion mechanism to enable camera mobility for capturing high-quality images.
+   - A rack-and-pinion mechanism to enable camera mobility for capturing multiple plants
 
 - **Electronics Module**
    - Includes LED indicators and buttons for user interaction.
@@ -34,7 +34,7 @@ PlantCare_AI is an innovative project that leverages artificial intelligence, el
 ---
 
 ## How It Works
-1. **Capture an Image**: The camera captures a high-quality image of a plant leaf, controlled via the mechanical setup.
+1. **Capture an Image**: The camera captures an image of a plant leaf, controlled via the mechanical setup.
 2. **Image Processing**: The AI module preprocesses the image, making it suitable for the trained MobileNet model.
 3. **Disease Prediction**: The AI predicts the health status or disease type and returns the result.
 4. **User Interaction**: Results are displayed on the web interface, with LEDs and buttons indicating the system's status.
@@ -42,6 +42,11 @@ PlantCare_AI is an innovative project that leverages artificial intelligence, el
 ---
 
 ## Installation
+### Prerequisites
+- Raspberry Pi with Python 3.7+
+- TensorFlow, Flask/Django, Torch. 
+- 3D printer for the case and mechanism
+### Steps
 ```bash
 # Clone the repository
 $ git clone https://github.com/ReemKhater/PlantCare_AI.git
